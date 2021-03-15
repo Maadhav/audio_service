@@ -1979,12 +1979,6 @@ class _AudioServiceWidgetState extends State<AudioServiceWidget>
   }
 
   @override
-  Future<bool> didPopRoute() async {
-    AudioService.disconnect();
-    return false;
-  }
-
-  @override
   Widget build(BuildContext context) {
     return widget.child;
   }
