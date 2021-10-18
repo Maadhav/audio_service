@@ -1,0 +1,14 @@
+include: package:pedantic/analysis_options.1.11.0.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  exclude:
+    - '**/*.mocks.dart'
+
+linter:
+  rules:
+    prefer_single_quotes: false
+    unawaited_futures: false
+    prefer_const_constructors: true

@@ -1,0 +1,25 @@
+name: audio_service_example
+description: Demonstrates how to use the audio_service plugin.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^2.0.1
+  audio_session: ^0.1.6+1
+  just_audio: ^0.9.13
+  flutter_tts: ^3.2.2
+  rxdart: ^0.27.2
+  audio_service:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
